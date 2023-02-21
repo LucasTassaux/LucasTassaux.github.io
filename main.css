@@ -71,7 +71,7 @@ body {
   }
 }
 
-#menu {
+.menu {
   z-index: 1;
   width: 500px;
   height: 500px;
@@ -80,6 +80,11 @@ body {
   left: 50%;
   margin: -250px 0 0 -250px;
   background-color: transparent;
+  display: none;
+}
+
+
+#error-menu {
   display: none;
 }
 
@@ -114,7 +119,7 @@ body {
   background-color:yellow;
 }
 
-#intro-text
+.intro-text
 {
   position: relative;
   top: 0;
@@ -123,6 +128,7 @@ body {
   font-size: 2.5em;
   font-family: 'SWFont';
 }
+
 
 #warning-text
 {
@@ -278,5 +284,6 @@ input:checked + .slider:before {
 {
   margin: 10px;
 }
+
 
 /*# sourceMappingURL=main.css.map*/
